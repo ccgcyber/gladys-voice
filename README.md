@@ -25,6 +25,8 @@ brew install sox
 
 Then, install this module on your machine (Raspberry Pi, any linux or Mac) :
 
+**Note :** You need Node.js >= v6
+
 ```
 npm install gladys-voice
 ```
