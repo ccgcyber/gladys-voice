@@ -12,7 +12,7 @@ module.exports = {
     language: process.env.RECOGNITION_LANGUAGE ||'fr-FR',
     gladys: {
         gladysUrl: process.env.GLADYS_URL || 'http://localhost:8080',
-        token: process.env.GLADYS_TOKEN || '3b4818806ebc050f705ef7dce59c1653edef8cd3'
+        token: process.env.GLADYS_TOKEN || 'your-gladys-token'
 
     },
     sound: process.env.RECOGNITION_SOUND || './data/affirmative.mp3'
